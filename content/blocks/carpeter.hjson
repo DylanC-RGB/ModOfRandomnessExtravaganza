@@ -23,7 +23,7 @@ splashDamage: 51
 lifetime: 300
 speed: 1
 }
-surge-alloy {
+surge-alloy: {
 type: MissileBulletType
 damage: 24
 splashDamage: 41
