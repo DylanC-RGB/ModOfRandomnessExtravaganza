@@ -1,0 +1,45 @@
+name: Carpet Swarmer
+description: A modified version of the swarmer that shoots slow missles.
+type: itemTurret
+requirements: [
+graphite/42
+titanium/42
+silicon/36
+plastanium/54
+surge-alloy/36
+]
+ammoTypes: {
+pyratite: {
+type: MissileBulletType
+damage: 18
+splashDamage: 36
+lifetime: 300
+speed: 1
+}
+blast-compound: {
+type: MissileBulletType
+damage: 16
+splashDamage: 51
+lifetime: 300
+speed: 1
+}
+surge-alloy {
+type: MissileBulletType
+damage: 24
+splashDamage: 41
+lifetime: 300
+speed: 1
+lightning: 2
+lightningDamage: 16
+}
+}
+buildCostMultiplier: 1
+reloadTime: 6
+inaccuracy: 10
+range: 100
+size: 2
+health: 1200
+targetGround: true
+targetAir: true
+category: turret
+shootSound: missile
